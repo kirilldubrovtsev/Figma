@@ -229,37 +229,45 @@
 
 /* Стили для страницы студенты */
 
-.h2_student {
-  font-family: roboto;
-  font-weight: 700;
-  font-size: 31px;
-  margin: 37px 15px;
-}
-
 .main_student {
-  max-width: 1202px;
+  min-width: 1202px;
   height: 384px;
   flex-grow: 1;
   margin: auto;
 }
 
+.student {
+  margin: 37px 15px;
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 31px;
+}
+
 .flex_student {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .foto_student {
+  background-image: url(/img/Rectangle\ 4.png);
   width: 200px;
   height: 270px;
   background: #86c6f4;
-  margin: 15px;
-  border: none;
 }
 
 .block_student {
-display: flex;
-justify-content: space-between;
-list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.name {
+  padding: 5px;
+  margin: 10px;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  width: 136px;
 }
 
 /* Стили для страницы о курсе */ 
