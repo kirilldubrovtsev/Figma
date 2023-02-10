@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-
 }
 
 /* Пребили подвал */
@@ -8,7 +7,8 @@
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  min-height: 100vh;
+  min-height: 100%;
+  flex-grow: 1;
 }
 
 /* Шапка*/
@@ -231,9 +231,9 @@
 
 .main_student {
   min-width: 1202px;
-  height: 384px;
-  flex-grow: 1;
+  min-height: 384px;
   margin: auto;
+  height: 100vh;
 }
 
 .student {
@@ -258,6 +258,7 @@
 .block_student {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .name {
@@ -282,38 +283,4 @@
   width: 100%;
   max-width: 1300px;
   flex-grow: 1;
-}
-
-
-/* Адаптив пробный */
-
-/*@media (max-width: 1300px) {
-  .header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-wrap: wrap;
-    min-width: 723px;
-  }
-
-  .container-clas {
-    flex-wrap: wrap;
-  }
-
-  .main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-wrap: wrap;
-    min-width: 723px;
-  }
-
-  .heading {
-    padding: 15px;
-  }
-
-  .footer {
-    min-width: 723px;
-    flex-wrap: wrap;
-  }
 }
