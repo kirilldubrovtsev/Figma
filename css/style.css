@@ -1,5 +1,5 @@
-* {
-  box-sizing: border-box;
+body {
+  margin: 0;
 }
 
 /* Пребили подвал */
@@ -7,7 +7,6 @@
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  flex-grow: 1;
 }
 
 /* Шапка*/
@@ -156,7 +155,7 @@
 .main {
   width: 100%;
   max-width: 911px;
-  margin: 0 auto;
+  margin: 20px auto;
   flex-grow: 1;
 }
 
@@ -228,14 +227,15 @@
 /* Стили для страницы студенты */
 
 .main_student {
-  min-width: 1202px;
+  width: 100%;
+  max-width: 1202px;
   min-height: 384px;
-  margin: auto;
+  margin: 0 auto;
   height: 100vh;
 }
 
 .student {
-  margin: 37px 15px;
+  margin: 37px 19px;
   font-family: Roboto;
   font-style: normal;
   font-size: 31px;
@@ -244,43 +244,39 @@
 .flex_student {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .foto_student {
-  background-image: url(/img/Rectangle\ 4.png);
+  padding: 50px;
   width: 200px;
   height: 270px;
   background: #86c6f4;
 }
 
-.block_student {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-
 .name {
-  padding: 5px;
-  margin: 10px;
+  margin: 8px 0 0 0;
   font-family: Roboto;
-  font-size: 18px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  width: 136px;
+  text-align: center;
 }
 
 /* Стили для страницы о курсе */ 
 .main_cours {
   width: 100%;
-  max-width: 1300px;
+  max-width: 1200px;
   flex-grow: 1;
   height: 100vh;
+  margin: 0 auto;
 }
 
 /* Стили для страницы контакты */
 .main_kontakt {
   width: 100%;
-  max-width: 1300px;
+  max-width: 1200px;
   flex-grow: 1;
   height: 100vh;
+  margin: 0 auto;
 }
