@@ -272,6 +272,27 @@ body {
   margin: 0 auto;
 }
 
+.text_cours {
+  margin: 0 0 15px 90px ;
+  font-family: Roboto;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: left;
+  padding: 0 33px;
+}
+
+.cours {
+  margin: 0 0 0 90px;
+  padding: 33px;
+}
+
+.poster {
+margin: 0 0 0 90px;
+padding: 0 33px;
+
+}
+
 /* Стили для страницы контакты */
 .main_kontakt {
   width: 100%;
