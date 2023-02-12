@@ -114,7 +114,7 @@ body {
   font-weight: 400;
   font-size: 24px;
   line-height: 28px;
-  color: #000000;
+  color: rgba(0, 0, 0, 1);
 }
 
 .login_text {
@@ -179,21 +179,21 @@ body {
   font-family: Roboto;
   font-weight: 700;
   font-size: 30px;
-  color: #000000;
+  color: rgba(0, 0, 0, 1);
 }
 
 .heading_2 {
   font-family: Roboto;
   font-weight: 400;
   font-size: 25px;
-  color: #000000;
+  color: rgba(0, 0, 0, 1);
 }
 
 .text {
   font-family: Roboto;
   font-weight: 400;
   font-size: 18px;
-  color: #000000;
+  color: rgba(0, 0, 0, 1);
   width: 100%;
   max-width: 634px;
   height: auto;
@@ -239,6 +239,7 @@ body {
   font-family: Roboto;
   font-style: normal;
   font-size: 31px;
+  color: rgba(0, 0, 0, 1);
 }
 
 .flex_student {
@@ -261,6 +262,7 @@ body {
   font-style: normal;
   font-weight: 400;
   text-align: center;
+  color: rgba(0, 0, 0, 1);
 }
 
 /* Стили для страницы о курсе */ 
@@ -280,6 +282,7 @@ body {
   font-weight: 400;
   text-align: left;
   padding: 0 33px;
+  color: rgba(0, 0, 0, 1);
 }
 
 .cours {
@@ -290,14 +293,44 @@ body {
 .poster {
 margin: 0 0 0 90px;
 padding: 0 33px;
-
+flex-wrap: wrap;
 }
 
 /* Стили для страницы контакты */
 .main_kontakt {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1300px;
   flex-grow: 1;
   height: 100vh;
   margin: 0 auto;
 }
+
+.maps {
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.kontakt_text {
+  padding: 0 0 0 218px;
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 30px;
+  color: #000000;
+}
+
+.uor_kontakt {
+  margin: 0 15px 0 218px;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 25px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.phone {
+  margin: 0 10px 0 218px;
+  padding: 10px 0 0 0;
+  font-family: roboto;
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 1);
+} 
