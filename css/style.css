@@ -308,6 +308,8 @@ flex-wrap: wrap;
 .maps {
   margin: 0 auto;
   flex-wrap: wrap;
+  width: 1268px;
+  height: 370px;
 }
 
 .kontakt_text {
