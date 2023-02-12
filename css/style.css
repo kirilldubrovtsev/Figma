@@ -159,6 +159,7 @@ body {
   max-width: 911px;
   margin: 20px auto;
   flex-grow: 1;
+  height: 100vh;
 }
 
 /* Эмблема Учимся вместе */
@@ -339,5 +340,14 @@ flex-wrap: wrap;
   color: rgba(0, 0, 0, 1);
 } 
 
-/* Медиа запросы для страницы Главная */
+/* Моя страничка */
+.color_body {
+  opacity: 0.7;
+  background-image: url(../img/f073eeac261fc415b785f3292fe3e78a.jpeg);
+}
 
+.my_page {
+  background: #646464;
+}
+
+/* Медиа запросы для страницы Главная */
