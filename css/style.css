@@ -250,16 +250,10 @@ img:hover {
   border: 1px solid #86c6f4;
 }
 
-.foto_student {
-  padding: 50px;
+.photo_student {
   width: 200px;
   height: 270px;
   background: #86c6f4;
-}
-
-.photo_element {
-  list-style-type: none;
-  text-decoration-line: none;
 }
 
 .name {
@@ -358,9 +352,5 @@ img:hover {
   height: 300px;
 }
 
-.my_text {
-  display: flex;
-  justify-content: space-between;
-}
 
 /* Медиа запросы для страницы Главная */
