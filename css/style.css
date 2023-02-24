@@ -481,6 +481,7 @@
 @media (max-width: 700px) {
   .container-class {
     font-size: 14px;
+    padding: 0 0 10px;
   }
 
   .heading {
